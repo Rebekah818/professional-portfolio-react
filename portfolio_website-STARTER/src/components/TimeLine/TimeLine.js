@@ -14,15 +14,15 @@ const Timeline = () => {
   //   return node.scrollTo({ left, behavior: 'smooth' });
   // }
 
-  // const handleClick = (e, i) => {
-  //   e.preventDefault();
+  const handleClick = (e, i) => {
+    e.preventDefault();
 
-  //   if (carouselRef.current) {
-  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+    if (carouselRef.current) {
+      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
       
-  //     scroll(carouselRef.current, scrollLeft);
-  //   }
-  // }
+      scroll(carouselRef.current, scrollLeft);
+    }
+  }
 
   // const handleScroll = () => {
   //   if (carouselRef.current) {
@@ -47,7 +47,7 @@ const Timeline = () => {
       <Section id="about">
         <SectionTitle> About Me</SectionTitle>
       <SectionText>
-      Think about what I want to say about  myself in this section!
+      I am a full stack web developer, political science major and single mother. 
       </SectionText>
       {/* <CarouselContainer ref={carouselRef}>
         <>

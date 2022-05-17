@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCode, DiFirebase, DiHeroku, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js, CSS, HTML, Bootstrap, Materialize
             </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,7 +28,17 @@ const Technologies = () =>  (
           <ListTitle>Back End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and MYSQL
+            JavaScript, Node.js and MYSQL, Sequalize, MongoDB, Express.js
+            </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiCode size="4rem" />
+        <ListContainer>
+          <ListTitle>Others</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Github, Heroku, Restful APIs, 
             </ListParagraph>
         </ListContainer>
       </ListItem>
