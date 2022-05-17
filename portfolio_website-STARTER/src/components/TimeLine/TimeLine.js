@@ -43,9 +43,31 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+  
+      <Section id="about">
+        <SectionTitle> About Me</SectionTitle>
+      <SectionText>
+      Think about what I want to say about  myself in this section!
+      </SectionText>
+      {/* <CarouselContainer ref={carouselRef}>
+        <>
+        {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem index={index}
+              id={`carousel_item=${index}`}
+              active={activeItem}
+              onClick={(e) => handleClick(e, index) }>
+              <CarouselItemTitle>
+                {item.year}
+              </CarouselItemTitle>
+
+
+              </CarouselItem>
+            </CarouselMobileScrollNode>
+        ))}
+        </>
+      </CarouselContainer> */}
+      </Section>
   );
 };
 
