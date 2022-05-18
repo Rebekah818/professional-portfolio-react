@@ -1,11 +1,11 @@
 {
   "homepage": "http://rebekah818.github.io/professional-portfolio-react",
-  "name": "portfolio_nextjs",
+  "name": "professional-portfolio-react",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build ",
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
